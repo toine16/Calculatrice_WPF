@@ -1,0 +1,11 @@
+﻿<Application x:Class="compteur_wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:compteur_wpf"
+             xmlns:loc="clr-namespace:compteur_wpf.Convert"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:MainWindowsView x:Key="GestionMainWindows"/>
+        <loc:IntToColors x:Key="GestionCouleur"/>
+    </Application.Resources>
+</Application>
